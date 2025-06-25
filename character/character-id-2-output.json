@@ -1,0 +1,65 @@
+{
+  "data": {
+    "character": {
+      "id": "2",
+      "name": "Morty Smith",
+      "status": "Alive",
+      "species": "Human",
+      "type": "",
+      "gender": "Male"
+    }
+  }
+}
+
+{
+  "errors": [
+    {
+      "message": "Cannot query field \"id\" on type \"Characters\".",
+      "locations": [
+        {
+          "line": 3,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "code": "GRAPHQL_VALIDATION_FAILED"
+      }
+    },
+    {
+      "message": "Cannot query field \"name\" on type \"Characters\".",
+      "locations": [
+        {
+          "line": 4,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "code": "GRAPHQL_VALIDATION_FAILED"
+      }
+    },
+    {
+      "message": "Cannot query field \"status\" on type \"Characters\".",
+      "locations": [
+        {
+          "line": 5,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "code": "GRAPHQL_VALIDATION_FAILED"
+      }
+    },
+    {
+      "message": "Cannot query field \"image\" on type \"Characters\".",
+      "locations": [
+        {
+          "line": 6,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "code": "GRAPHQL_VALIDATION_FAILED"
+      }
+    }
+  ]
+}
